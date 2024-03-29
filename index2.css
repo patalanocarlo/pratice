@@ -1,0 +1,202 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  transition: background-color 0.8s ease;
+}
+
+header.fixed {
+  background-color: white;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+.logo .img {
+  width: 12rem;
+}
+.logo img {
+  padding: 1rem;
+}
+header {
+  background-color: #ffc017;
+  border: 1px solid black;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  font-family: cursive;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo img {
+  width: 100px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+main {
+  margin-top: 5rem; /* Aumenta il margine superiore del main */
+  min-height: 40rem; /* Imposta un'altezza minima per il main */
+  background-color: #ffc017;
+  border-bottom: 1px solid black;
+}
+
+button {
+  margin-left: auto;
+  background-color: black;
+  color: white;
+  font-family: inherit;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+}
+
+.container .button {
+  width: 36rem;
+}
+.main-title {
+  font-family: sans-serif;
+  font-size: 7rem;
+  margin-top: 2rem;
+}
+.container p {
+  font-family: system-ui;
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+main .container {
+  padding: 7rem;
+  margin: 0 auto;
+}
+.container .button button {
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  margin-top: 4rem;
+}
+iframe {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 45rem;
+  height: 50rem;
+  overflow-y: auto;
+  margin-right: 1rem;
+}
+.container2 {
+  text-align: center;
+}
+.container2 .span1 {
+  padding: 3rem;
+  font-size: 1.4rem;
+  display: block;
+}
+footer {
+  border-bottom: 1px solid gray;
+  min-height: 30rem;
+}
+.section1 {
+  max-width: 1400px; /* Larghezza massima della section */
+  margin: 0 auto; /* Per centrare la section */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Centra gli elementi lungo l'asse principale */
+}
+
+.section1 div {
+  flex-basis: calc(
+    33.33% - 20px
+  ); /* Larghezza di 1/3 meno il margine tra gli elementi */
+  margin-bottom: 40px; /* Aggiungi spazio tra le righe */
+}
+
+/* Per l'ultimo elemento di ogni riga, rimuovi il margine destro */
+.section1 div:nth-child(3n) {
+  margin-right: 0;
+}
+.section1 h4.flex-container {
+  display: flex;
+  align-items: center;
+}
+
+.section1 h4.flex-container img {
+  margin-right: 10px;
+}
+.section1 div p {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.section1 div span {
+  display: block;
+  margin-top: 1rem;
+  opacity: 0.4;
+  margin-bottom: 5px;
+}
+.section1 h4.flex-container span {
+  margin-right: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.AnotherSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  position: relative;
+}
+
+.AnotherSection div {
+  display: flex;
+  flex-direction: column; /* Organizza gli elementi in colonne */
+  align-items: center; /* Allinea gli elementi lungo l'asse trasversale */
+  margin-bottom: 2rem; /* Aggiunge uno spazio di 1 rem tra i div */
+  margin-right: 40rem;
+}
+
+.AnotherSection div p,
+.AnotherSection div span,
+.AnotherSection div h2,
+.AnotherSection div h4 {
+  margin-bottom: 1rem; /* Aggiunge uno spazio di 1 rem tra i paragrafi, gli span, gli h2 e gli h4 */
+  margin-left: 14rem;
+  margin-right: 20rem;
+}
+
+.AnotherSection div h2 {
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.AnotherSection div h4 {
+  font-size: 1.1rem;
+}
+.fixed {
+  background-color: white; /* Cambia il colore di sfondo quando l'header diventa fisso */
+}
+.black {
+  color: black;
+}
